@@ -2,9 +2,9 @@
   "name": "rpi-gpio",
   "version": "1.0.0",
   "description": "Simple tool to toggle GPIO pins on the Raspberry Pi",
-  "main": "gpio-tool.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node gpio-tool.js",
+    "start": "sudo \"$(which node)\" index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Broski",
