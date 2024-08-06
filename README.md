@@ -7,13 +7,15 @@ This utility uses Web sockets to send a signal to a Raspberry Pi over a network 
 
 This application was intended as a first use of git for beginners, so I am going to attempt to be more detailed and explicit than I would normally.
 
-Clone this repo
+Clone this repo:
 
     git clone git@github.com:behaviorallogic/rpi-gpio.git
 
-or
+or, if you don't have ssh keys set up:
 
     git clone https://github.com/behaviorallogic/rpi-gpio.git
+
+If you clone over https, you won't be able to push code back to the repository,which I don't; allow you to do anyhow, so https is fine for this example.
 
 Change the directory to the repo `cd rpi-gpio` and then install the required libraries `npm install`.
 
