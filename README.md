@@ -1,6 +1,8 @@
 Raspberry Pi GPIO Utility
 =========================
 
+This was made as a companion to my YouTube video (https://youtu.be/4Re-6-3VAKU)[Programming on the Raspberry Pi - A Simple Introduction]
+
 This utility uses Web sockets to send a signal to a Raspberry Pi over a network to simply turn on or off voltage to GPIO pins. I find it useful for separating the testing of hardware from software.
 
 ## Installation
@@ -15,7 +17,7 @@ or, if you don't have ssh keys set up:
 
     git clone https://github.com/behaviorallogic/rpi-gpio.git
 
-If you clone over https, you won't be able to push code back to the repository,which I don't; allow you to do anyhow, so https is fine for this example.
+If you clone over https, you won't be able to push code back to the repository, which I don't allow you to do anyhow, so https is fine for this example.
 
 Change the directory to the repo `cd rpi-gpio` and then install the required libraries `npm install`.
 
@@ -32,4 +34,4 @@ You should have everything you need to run this now.
 
     npm start
 
-I included a function to take a godo guess what the correct URL is. It might look something like `http://0.0.0.0:3792`. Paste that into any web browser's location bar on your local network to expose the user interface (UI)
+I included a function to take a good guess what the correct URL is. It might look something like `http://0.0.0.0:3792`. Paste that into any web browser's location bar on your local network to expose the user interface (UI.)
